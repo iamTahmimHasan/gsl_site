@@ -1,0 +1,49 @@
+.nav1{
+    padding-top: none;
+}
+
+.partner {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-left: 15px;
+    
+
+}
+
+.brand_name{
+    font-size: 40px;
+    color: navy;
+    font-weight: 500;
+}
+
+
+.gsl_logo
+{
+    width: 30%;
+    padding-top: 3px;
+    padding-left: 38px;
+    padding-bottom: 5px;
+}
+
+.motto{
+    padding-left: 61px;
+    font-size: 16px;
+    color: #f1093f;
+}
+
+
+body {
+    background-color:#ffbebe;
+}
+
+.ptl {
+    background-color:#f2ddd8 ;
+
+}
+
+.ptl1 {
+    background-color:#f2f2f2 ;
+
+}
+
