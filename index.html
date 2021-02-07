@@ -14,14 +14,15 @@
     <link rel="stylesheet" href="bootstrap_5.0.0/js/bootstrap.min.js">
     <link href="css/style.css" rel="stylesheet" >
 </head>
-<body class="container">
-    <nav class="container">
+<body>
+    <nav>
         <div class="row" id="TopNavBar">
-            <div class="col-sm-9 p-3">
-                Hotline: 09666-700111, 01708524200-03
+            <div class="col-sm-9 p-3" id="hotline">
+                <h4><i class="bi bi-headset"></i> 09666-700111, 01708524200-03</h4>
             </div>
             <div class="col-sm-3 p-3">
-                Login/Create an Account
+                <button type="button" class="btn btn-outline-success"><i class="bi bi-door-open"></i> Login</button>
+                <button type="button" class="btn btn-outline-secondary"><i class="bi bi-person-fill"></i> Create Account</button>
             </div>
         </div>
         <div class="row ptl1">
@@ -38,30 +39,35 @@
                 <a href="#"><img style="width:8%;" src="img/social/linkedin.png" alt="LinkedIn"></a>
                 <a href="#"><img style="width:10%;" src="img/social/youtube.png" alt="youtube"></a>
             </div>
-        </div>
-        <div class="navbar navbar-expand-lg ptl1 ">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li><a class="nav-link" href="#">About</a></li>
-                    <li><a class="nav-link" href="#">Team</a></li>
-                    <li><a class="nav-link" href="#">Enquire</a></li>
-                    <li><a class="nav-link" href="#">Profile</a></li>
-                    <li><a class="nav-link" href="#">Gallery</a></li>
-                    <li><a class="nav-link" href="#">Our Clients</a></li>
-                    <li><a class="nav-link" href="#">Visa</a></li>
-                    <li><a class="nav-link" href="#">Study Abroad</a></li>
-                    <li><a class="nav-link" href="#">Contact Us</a></li>
-                </ul>
+            <div>
+                <div class="navbar navbar-expand-lg ptl1 ">
+                    <div class="container">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li><a class="nav-link" href="#">About Us</a></li>
+                                    <li><a class="nav-link" href="#">Team</a></li>
+                                    <li><a class="nav-link" href="#">Enquire</a></li>
+                                    <li><a class="nav-link" href="#">Profile</a></li>
+                                    <li><a class="nav-link" href="#">Gallery</a></li>
+                                    <li><a class="nav-link" href="#">Our Clients</a></li>
+                                    <li><a class="nav-link" href="#">Visa</a></li>
+                                    <li><a class="nav-link" href="#">Study Abroad</a></li>
+                                    <li><a class="nav-link" href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                    </div>
                 </div>
+            
+
             </div>
         </div>
+        
     </nav>
 
     <div class="partner">
@@ -73,7 +79,7 @@
 
     <div class="row container-fluid partner" style="width: 100%;">
         <div class=" row ptl"> 
-            <Div class="col">
+            <Div class="col partner">
                 <div>
                     <h3>Our Service</h3>
                     <hr>

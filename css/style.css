@@ -3,6 +3,13 @@
     padding: 0px;
     font-size: 15px;
     text-align: right;
+    font-weight: 800 ;
+    text-orientation: inline;
+}
+
+#hotline{
+    margin-top: 2px;
+
 }
 
 .partner {
@@ -15,9 +22,10 @@
 }
 
 .brand_name{
-    font-size: 40px;
+    font-size: 30px;
     color: navy;
-    font-weight: 500;
+    font-weight: lighter;
+    text-decoration: none;
 }
 
 
@@ -30,18 +38,18 @@
 }
 
 .motto{
-    padding-left: 61px;
+    padding-left: 30px;
     font-size: 16px;
-    color: #f1093f;
+    color: #db2e56;
 }
 
 
 body {
     background-color:#ffbebe;
-    font-family: "Bw Helder", Helvetica, sans-serif;
     font-size: 16px;
     line-height: 28px;
     font-weight: 600;
+    color: black;
     
 }
 
