@@ -3,8 +3,28 @@
     padding: 0px;
     font-size: 15px;
     text-align: right;
-    font-weight: 800 ;
     text-orientation: inline;
+}
+
+#TopNavBar {
+
+}
+
+.site-wrapper {
+    max-width: 1150px;
+    margin: auto;
+}
+.bi_area{
+    margin: 10px 0 10px 0;
+    text-decoration: none;
+    list-style: none;
+    text-transform: none;
+
+}
+
+.bi_area .i {
+    margin-right: 5px;
+    padding-right: 2px;
 }
 
 #hotline{
@@ -50,6 +70,7 @@ body {
     line-height: 28px;
     font-weight: 600;
     color: black;
+    text-transform: uppercase;
     
 }
 
