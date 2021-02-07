@@ -14,14 +14,13 @@
     <link rel="stylesheet" href="bootstrap_5.0.0/js/bootstrap.min.js">
     <link href="css/style.css" rel="stylesheet" >
 </head>
-<body>
-    <nav class="container-fluid">
-        <div class="row nav1">
-            <div class="col-sm-9 p-3" style="text-align: center;
-            font-size: 17px;">
+<body class="container">
+    <nav class="container">
+        <div class="row" id="TopNavBar">
+            <div class="col-sm-9 p-3">
                 Hotline: 09666-700111, 01708524200-03
             </div>
-            <div class="col-sm-3 p-3" style="font-size: 17px">
+            <div class="col-sm-3 p-3">
                 Login/Create an Account
             </div>
         </div>
@@ -29,7 +28,7 @@
             <div class="col gsl_logo" >
                 <img class="col gsl_logo" src="img/company logo/GSL-Logo.png" alt="Global Star Limited">
             </div>
-            <div class="col">
+            <div class="col partner">
                 <a class="navbar-brand brand_name" href="#"> Global Star Limited</a>
                 <p class="motto">Your Trusted Travel Partner</p>
             </div>
@@ -37,7 +36,7 @@
                 <a href="#"><img style="width:8%;" src="img/social/fb.png" alt="Facebook"></a>
                 <a href="#"><img style="width:8%;" src="img/social/twitter.png" alt="Twitter"></a>
                 <a href="#"><img style="width:8%;" src="img/social/linkedin.png" alt="LinkedIn"></a>
-                <a href="#"><img style="width:8%;" src="img/social/youtube.png" alt="youtube"></a>
+                <a href="#"><img style="width:10%;" src="img/social/youtube.png" alt="youtube"></a>
             </div>
         </div>
         <div class="navbar navbar-expand-lg ptl1 ">
@@ -72,25 +71,24 @@
 
 
 
-    <div class="row container-fluid" style="width: 10%;">
-    </div>
-    <div class=" row ptl"> 
-        <Div class="col">
-            <div>
-                <h3>Our Service</h3>
-                <hr>
-                
-            </div>
-            <Div>
+    <div class="row container-fluid partner" style="width: 100%;">
+        <div class=" row ptl"> 
+            <Div class="col">
                 <div>
-                    <h5>Employment Service</h5>
+                    <h3>Our Service</h3>
+                    <hr>
+                    
                 </div>
-                <div>
-                    <h5>Travel Service</h5>
-                </div>
-                <div>
-                    <h5>Study Service</h5>
-                </div>
+                <Div>
+                    <div>
+                        <h5>Employment Service</h5>
+                    </div>
+                    <div>
+                        <h5>Travel Service</h5>
+                    </div>
+                    <div>
+                        <h5>Study Service</h5>
+                    </div>
                 
             </Div>
 
@@ -126,13 +124,13 @@
     </div>
 
 
-    <div class="row container-fluid">
+    <div class="row container-fluid partner">
         <h3>Cuurent Offer</h3>
     </div>
     <div class="ptl partner">
         <div class="card-group partner">
             <div class="card ">
-                <img style="height:50% ;"  src="img/associates/iata.png" alt="IATA">
+                <img style="height:30% ;"  src="img/associates/iata.png" alt="IATA">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -142,7 +140,7 @@
               </div>
             </div>
             <div class="card">
-                <img style="height:50% ;" src="img/associates/iata.png" alt="IATA">
+                <img style="height:30% ;" src="img/associates/iata.png" alt="IATA">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -152,7 +150,7 @@
               </div>
             </div>
             <div class="card">
-                <img style="height:50% ;"  src="img/associates/iata.png" alt="IATA">
+                <img style="height:30% ;"  src="img/associates/iata.png" alt="IATA">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -165,7 +163,7 @@
           
     </div>
 
-    <div class="row">
+    <div class="row partner">
         <h3> Associate & Approved By:</h3>
     </div>
     <div class="ptl partner">
@@ -180,7 +178,7 @@
     </div>
 
 
-    <div>
+    <div class="row partner">
         <h3> Airlines</h3>
     </div>
     <div class="ptl partner" >
@@ -192,7 +190,7 @@
     </div>
 
 
-    <div>
+    <div class="row partner">
         <h3> Financial Supporter</h3>
     </div>
     <div class="ptl partner">
@@ -203,7 +201,7 @@
 
     </div>
 
-    <div>
+    <div class="row partner">
         <h3> Media Partner</h3>
     </div>
     <div class="ptl partner">
@@ -212,6 +210,9 @@
         <img style="width: 15%;" src="img/media/bd protidin.png" alt="">
         <img style="width: 15%;" src="img/media/ittefak.png" alt="">
         <img style="width: 15%;" src="img/media/noya digonto.png" alt="">
+
+    </div>
+    <div class="row partner">
 
     </div>
 
@@ -264,14 +265,15 @@
 
 
 
-    <footer class="partner">
-        <div class="row">
+
+    <footer>
+        <div class="row partner">
             <div class="col">
                 <a class="navbar-brand" href="#">Global Star Limited</a>
             </div>
             <div class="col">
                 <h5>
-                    Help
+                    <a href="#">Help</a> 
                 </h5>
     
     
@@ -294,15 +296,15 @@
             </div>
 
         </div>
-        <div class="row ptl">
+        <div class="row ptl partner">
             <div class="col-4">
                 <a href="#"><img style="width:5%;" src="img/social/fb.png" alt="Facebook"></a>
                 <a href="#"><img style="width:5%;" src="img/social/twitter.png" alt="Twitter"></a>
                 <a href="#"><img style="width:5%;" src="img/social/linkedin.png" alt="LinkedIn"></a>
-                <a href="#"><img style="width:5%;" src="img/social/youtube.png" alt="youtube"></a>
+                <a href="#"><img style="width:8%;" src="img/social/youtube.png" alt="youtube"></a>
 
             </div>
-            <div class="col-4">
+            <div class="col-6">
                 <p>2001-2021 &copy; Global Star Limited | All Right Reserved  </p>
             </div>
 
