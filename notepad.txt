@@ -1,0 +1,6 @@
+
+python Setup
+Crate Virtual Envirmennt
+- Run  pip install virtualenvwrapper-win
+-  run mkvirtualenv  (env name)
+- 
